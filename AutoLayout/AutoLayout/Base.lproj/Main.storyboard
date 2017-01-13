@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1SW-Ge-Hif">
-                                <rect key="frame" x="177.66666666666666" y="353" width="59" height="30"/>
+                                <rect key="frame" x="178" y="353" width="59" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.036703849080000003" blue="0.018906644940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Click me">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -32,24 +32,37 @@
                                     <action selector="showMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="UaR-VG-Lh0"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome to Auto Layout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rw-CE-iD9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Auto Layout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rw-CE-iD9">
                                 <rect key="frame" x="207" y="695" width="187" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn Swift and IOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIC-87-JUY">
+                                <rect key="frame" x="42" y="90" width="331" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="ORu-tr-AfZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="1SW-Ge-Hif" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CdP-dE-Ihp"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="6rw-CE-iD9" secondAttribute="trailing" constant="24" id="MCf-vN-uMD"/>
-                            <constraint firstItem="1SW-Ge-Hif" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jc3-Ym-NiH"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6rw-CE-iD9" secondAttribute="bottom" constant="20" id="kX0-Xn-guc"/>
+                            <constraint firstItem="1SW-Ge-Hif" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0JG-lm-3FS"/>
+                            <constraint firstItem="SIC-87-JUY" firstAttribute="centerX" secondItem="1SW-Ge-Hif" secondAttribute="centerX" id="9d3-hQ-dh0"/>
+                            <constraint firstItem="SIC-87-JUY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Fjd-QG-HNw"/>
+                            <constraint firstItem="SIC-87-JUY" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="WLm-hx-BWu"/>
+                            <constraint firstItem="6rw-CE-iD9" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="bLT-2x-79Q"/>
+                            <constraint firstAttribute="bottom" secondItem="6rw-CE-iD9" secondAttribute="bottom" constant="20" symbolic="YES" id="lrH-wz-cLD"/>
+                            <constraint firstItem="SIC-87-JUY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="22" id="zbE-MU-xAm"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="31.884057971014496" y="100.2717391304348"/>
         </scene>
     </scenes>
 </document>
