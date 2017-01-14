@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WIe-M0-gX7">
-                                <rect key="frame" x="32" y="70" width="374" height="307"/>
+                                <rect key="frame" x="32" y="70" width="374" height="307.33333333333331"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="fA4-S1-MPP">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="86"/>
@@ -51,16 +51,16 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xtm-iW-Ns6">
-                                        <rect key="frame" x="0.0" y="96" width="374" height="140"/>
+                                        <rect key="frame" x="0.0" y="96" width="374" height="140.33333333333331"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user1" translatesAutoresizingMaskIntoConstraints="NO" id="GqS-gD-JIr">
-                                                <rect key="frame" x="0.0" y="0.0" width="118" height="140"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="140.33333333333331"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user2" translatesAutoresizingMaskIntoConstraints="NO" id="Hds-BC-eIf">
-                                                <rect key="frame" x="128" y="0.0" width="118" height="140"/>
+                                                <rect key="frame" x="128" y="0.0" width="118" height="140.33333333333331"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user3" translatesAutoresizingMaskIntoConstraints="NO" id="Tjv-yv-hID">
-                                                <rect key="frame" x="256" y="0.0" width="118" height="140"/>
+                                                <rect key="frame" x="256" y="0.0" width="118" height="140.33333333333331"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
@@ -68,7 +68,7 @@
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need help with your coding problems? We'll find you the right developer who can help you in 15 minutes." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWi-YS-kMY">
-                                        <rect key="frame" x="0.0" y="246" width="374" height="61"/>
+                                        <rect key="frame" x="0.0" y="246.33333333333331" width="374" height="61"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="61" id="aJa-XJ-hp9"/>
                                         </constraints>
@@ -81,18 +81,45 @@
                                     <constraint firstAttribute="width" secondItem="WIe-M0-gX7" secondAttribute="height" multiplier="343:282" id="0Ie-Ia-afK"/>
                                 </constraints>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bKp-WJ-vjI">
+                                <rect key="frame" x="119" y="591" width="200" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Li-fD-apj">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.036703849080000003" blue="0.018906644940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Sign up">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gxo-Fk-Joh">
+                                        <rect key="frame" x="0.0" y="40" width="200" height="30"/>
+                                        <color key="backgroundColor" red="1" green="0.036703849080000003" blue="0.018906644940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Log in with Facebook">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="UZy-86-N1R"/>
+                                    <constraint firstAttribute="width" secondItem="bKp-WJ-vjI" secondAttribute="height" multiplier="20:7" id="lbi-Vb-1ON"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="WIe-M0-gX7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="8dc-et-pmg"/>
+                            <constraint firstItem="bKp-WJ-vjI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="12" id="Baz-Ae-bqs"/>
                             <constraint firstAttribute="trailingMargin" secondItem="WIe-M0-gX7" secondAttribute="trailing" constant="-12" id="Bde-cF-oX7"/>
+                            <constraint firstItem="bKp-WJ-vjI" firstAttribute="leading" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="404" id="Rpo-rm-ZyN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bKp-WJ-vjI" secondAttribute="bottom" constant="75" id="gRS-xv-Mo6"/>
                             <constraint firstItem="WIe-M0-gX7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="12" id="rTV-Uj-rSX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bKp-WJ-vjI" secondAttribute="bottom" constant="75" id="rhK-S0-rfk"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24.800000000000001" y="35.532233883058474"/>
+            <point key="canvasLocation" x="24.637681159420293" y="35.054347826086961"/>
         </scene>
     </scenes>
     <resources>
