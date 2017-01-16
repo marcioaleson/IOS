@@ -28,11 +28,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return restaurantNames.count
     }
     
+    override var prefersStatusBarHidden: Bool{
+        return true
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifer = "Cell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifer, for: indexPath)
         //Configure the cell...
         cell.textLabel?.text = restaurantNames[indexPath.row]
+        cell.imageView?.image = UIImage(named: "restaurant")
         return cell
     }
 }
