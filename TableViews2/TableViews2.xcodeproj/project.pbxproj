@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		753EDC7A1E3C1E330025FADC /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753EDC791E3C1E330025FADC /* RestaurantTableViewCell.swift */; };
 		75ACA70E1E3560C100ED6ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ACA70D1E3560C100ED6ED8 /* AppDelegate.swift */; };
 		75ACA7131E3560C100ED6ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75ACA7111E3560C100ED6ED8 /* Main.storyboard */; };
 		75ACA7151E3560C100ED6ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75ACA7141E3560C100ED6ED8 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		753EDC791E3C1E330025FADC /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 		75ACA70A1E3560C000ED6ED8 /* TableViews2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViews2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75ACA70D1E3560C100ED6ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75ACA7121E3560C100ED6ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				75ACA7161E3560C100ED6ED8 /* LaunchScreen.storyboard */,
 				75ACA7191E3560C100ED6ED8 /* Info.plist */,
 				75ACA73B1E35693800ED6ED8 /* RestaurantTableViewController.swift */,
+				753EDC791E3C1E330025FADC /* RestaurantTableViewCell.swift */,
 			);
 			path = TableViews2;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75ACA73C1E35693800ED6ED8 /* RestaurantTableViewController.swift in Sources */,
+				753EDC7A1E3C1E330025FADC /* RestaurantTableViewCell.swift in Sources */,
 				75ACA70E1E3560C100ED6ED8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				75ACA7341E3560C100ED6ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75ACA7351E3560C100ED6ED8 /* Build configuration list for PBXNativeTarget "TableViews2Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				75ACA7371E3560C100ED6ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75ACA7381E3560C100ED6ED8 /* Build configuration list for PBXNativeTarget "TableViews2UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				75ACA73A1E3560C100ED6ED8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
