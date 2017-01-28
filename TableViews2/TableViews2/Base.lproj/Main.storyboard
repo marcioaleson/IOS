@@ -23,18 +23,23 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qBU-Fc-3Kn" id="A6g-1X-axE">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="aoB-ne-lDD">
                                             <rect key="frame" x="14" y="10" width="353" height="60"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Gi-mw-Elx">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Gi-mw-Elx">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="60" id="P2x-nG-xO7"/>
                                                         <constraint firstAttribute="width" constant="60" id="lZA-gV-xcH"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="30"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="hdC-ZA-5sV">
                                                     <rect key="frame" x="70" y="0.0" width="283" height="55.5"/>
@@ -74,7 +79,7 @@
                                 <connections>
                                     <outlet property="locationLabel" destination="6Zd-ae-6PO" id="b8o-no-lVd"/>
                                     <outlet property="nameLabel" destination="1uR-7Z-Caz" id="u1x-FP-IZq"/>
-                                    <outlet property="thumbnailImageVIew" destination="6Gi-mw-Elx" id="Ppz-ZG-XsL"/>
+                                    <outlet property="thumbnailImageView" destination="6Gi-mw-Elx" id="erB-M0-nzG"/>
                                     <outlet property="typeLabel" destination="RKT-Wu-2Qg" id="XGX-og-Xu0"/>
                                 </connections>
                             </tableViewCell>
