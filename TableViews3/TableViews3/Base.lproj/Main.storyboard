@@ -27,13 +27,17 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IH3-Jc-CnG">
-                                            <rect key="frame" x="14" y="10" width="125" height="60"/>
+                                            <rect key="frame" x="14" y="10" width="392" height="60"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kgK-LN-LGm">
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="FC9-tq-0zF"/>
+                                                        <constraint firstAttribute="width" constant="60" id="QcV-P0-2xZ"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="IKs-kc-bwH">
-                                                    <rect key="frame" x="70" y="0.0" width="55" height="55"/>
+                                                    <rect key="frame" x="70" y="0.0" width="322" height="55"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVK-JI-Zk4">
                                                             <rect key="frame" x="0.0" y="0.0" width="46.666666666666657" height="20.333333333333332"/>
@@ -57,15 +61,15 @@
                                                 </stackView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="kgK-LN-LGm" secondAttribute="bottom" id="MwR-Bu-uoP"/>
+                                                <constraint firstAttribute="bottom" secondItem="kgK-LN-LGm" secondAttribute="bottom" id="KCx-MV-fu4"/>
                                             </constraints>
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="IH3-Jc-CnG" secondAttribute="trailing" constant="275" id="68T-gu-or3"/>
-                                        <constraint firstItem="IH3-Jc-CnG" firstAttribute="top" secondItem="ydZ-R0-ylu" secondAttribute="topMargin" constant="2" id="MSB-fn-Sp0"/>
-                                        <constraint firstItem="IH3-Jc-CnG" firstAttribute="centerY" secondItem="ydZ-R0-ylu" secondAttribute="centerY" id="gll-XX-Yxh"/>
-                                        <constraint firstItem="IH3-Jc-CnG" firstAttribute="leading" secondItem="ydZ-R0-ylu" secondAttribute="leadingMargin" constant="6" id="izZ-RX-7P5"/>
+                                        <constraint firstItem="IH3-Jc-CnG" firstAttribute="leading" secondItem="ydZ-R0-ylu" secondAttribute="leadingMargin" constant="6" id="3X7-jP-WyS"/>
+                                        <constraint firstItem="IH3-Jc-CnG" firstAttribute="centerY" secondItem="ydZ-R0-ylu" secondAttribute="centerY" id="Nu2-D5-7tG"/>
+                                        <constraint firstItem="IH3-Jc-CnG" firstAttribute="top" secondItem="ydZ-R0-ylu" secondAttribute="topMargin" constant="2" id="elY-uj-tvq"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="IH3-Jc-CnG" secondAttribute="trailing" id="rAy-8U-4PW"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
