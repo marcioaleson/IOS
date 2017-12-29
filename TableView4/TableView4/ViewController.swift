@@ -38,6 +38,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                                                      for: indexPath)
             // Configure the cell...
             cell.textLabel?.text = restaurantNames[indexPath.row]
+            
+            //Adding image
+            cell.imageView?.image = UIImage(named: "barrafina")
+            
             return cell }
 
 }
