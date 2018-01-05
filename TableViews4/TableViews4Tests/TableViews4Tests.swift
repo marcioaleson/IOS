@@ -1,15 +1,15 @@
 //
-//  TableView4Tests.swift
-//  TableView4Tests
+//  TableViews4Tests.swift
+//  TableViews4Tests
 //
-//  Created by Marcio Aleson on 12/22/17.
+//  Created by Marcio Aleson on 12/29/17.
 //  Copyright © 2017 Marcio Aleson. All rights reserved.
 //
 
 import XCTest
-@testable import TableView4
+@testable import TableViews4
 
-class TableView4Tests: XCTestCase {
+class TableViews4Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
