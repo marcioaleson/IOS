@@ -33,7 +33,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                            <integer key="value" value="30"/>
+                                                            <integer key="value" value="10"/>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
@@ -46,13 +46,13 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAq-7h-zOU">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAq-7h-zOU">
                                                             <rect key="frame" x="0.0" y="17" width="52" height="16"/>
                                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="13"/>
                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYr-g6-5xD">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XYr-g6-5xD">
                                                             <rect key="frame" x="0.0" y="33" width="52" height="14.5"/>
                                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -61,13 +61,16 @@
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="fZC-q6-b46" secondAttribute="bottom" id="LwD-Cl-B6R"/>
+                                            </constraints>
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="l4h-Y2-hdy" secondAttribute="trailing" constant="239" id="7QV-TD-xgj"/>
-                                        <constraint firstItem="l4h-Y2-hdy" firstAttribute="leading" secondItem="Oxb-Ce-oa6" secondAttribute="leadingMargin" constant="6" id="ApD-ys-yvU"/>
-                                        <constraint firstItem="l4h-Y2-hdy" firstAttribute="top" secondItem="Oxb-Ce-oa6" secondAttribute="topMargin" constant="2" id="Yh8-Lf-KWy"/>
-                                        <constraint firstItem="l4h-Y2-hdy" firstAttribute="centerY" secondItem="Oxb-Ce-oa6" secondAttribute="centerY" id="Zfa-l9-2NJ"/>
+                                        <constraint firstAttribute="trailing" secondItem="l4h-Y2-hdy" secondAttribute="trailing" constant="239" id="1dD-dN-E2e"/>
+                                        <constraint firstItem="l4h-Y2-hdy" firstAttribute="top" secondItem="Oxb-Ce-oa6" secondAttribute="topMargin" constant="2" id="WJt-8w-RrU"/>
+                                        <constraint firstItem="l4h-Y2-hdy" firstAttribute="centerY" secondItem="Oxb-Ce-oa6" secondAttribute="centerY" id="r3I-ab-XhJ"/>
+                                        <constraint firstItem="l4h-Y2-hdy" firstAttribute="leading" secondItem="Oxb-Ce-oa6" secondAttribute="leadingMargin" constant="6" id="uhG-5x-4Ph"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
